@@ -1,0 +1,168 @@
+
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  #nav {
+    height: 87px;
+    background: #f0f0f0;
+  }
+  #container1 {
+    width: 1140px;
+    height: 85px;
+    margin: auto;
+  }
+  #logo1 {
+    width: 200px;
+    height: 85px;
+    float: left;
+    background-image: url(../prode/img/logo4.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  #nav-list {
+    height: 85x;
+    font-size: 20px;
+    float: right;
+    margin-top: 30px;
+  }
+  #nav-list li {
+    float: right;
+    margin: 15px;
+    list-style-type: none;
+  }
+
+  #fixture {
+  font-size: .7em;
+    text-align: center;
+    background: #85a094;
+    margin-top: 10px;
+  }
+
+  
+#fixture table {
+  margin-top: 200px;
+  width: 100%;
+  text-align: center;
+  border-spacing: 1.5px;
+  table-layout: fixed;
+}
+
+body {
+    font-family: 微軟正黑體 !important;
+  }
+
+tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+.final {
+  width: 15%;
+  background: #312d2c;
+  color: #fff;
+  font-size: 1em;
+  font-weight: 700;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.club1, .club2 {
+  width: 30%;
+  background: #e5e5e5;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
+}
+
+.result1, .result2 {
+  width: 7%;
+    background: #fff;
+    font-size: 1.6em;
+    font-weight: 700;
+}
+
+.info {
+  width: 10%;
+  background: green;
+}
+
+.goles {
+  font-size: 12.2px;
+    font-weight: 700;
+    background: #fff;
+    border-spacing: 0;
+    text-align: left;
+    -webkit-border-horizontal-spacing: 2px;
+    -webkit-border-vertical-spacing: 2px;
+}
+
+.tituloin {
+  width: 100%;
+  background: #002d29;
+  color: #fff;
+  text-align: center;
+  padding-top: 1px;
+  color: #fff;
+  font-size: 1.3em;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px #000;
+  font-weight: 700;
+}
+
+#partidos {
+    width: 60%;
+    margin-left: 120px;
+}
+
+
+  #nav-bottom {
+    height: 60px;
+    margin-top: 150px;
+    position: relative;
+    background-color: #3e5e5d;
+  }
+  #text4 {
+    width: 650px;
+    height: 60px;
+    position: absolute;
+    top: calc(50% - 20px);
+    left: calc(50% - 325px);
+  }
+  #text4 p {
+    float: right;
+    margin: 10px;
+    color: #fff;
+  }
+
+
+  #footer2 {
+    height: 50px;
+    position: relative;
+    background-color: #1b2827;
+  }
+  #text5 {
+    width: 400px;
+    height: 50px;
+    position: absolute;
+    top: calc(50% - 25px);
+    left: calc(50% - 200px);
+  }
+  #text5 p {
+    float: right;
+    margin: 10px;
+    color: rgba(255, 255, 255, 0.5);
+  }
